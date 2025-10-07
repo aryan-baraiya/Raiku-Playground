@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "npm --prefix RAIKU run dev",
-    "build": "npm --prefix RAIKU run build",
+    "build": "npm --prefix RAIKU run build && rm -rf dist && mkdir -p dist && cp -R RAIKU/dist/. dist/",
     "start": "npm --prefix RAIKU run preview"
   }
 }
