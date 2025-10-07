@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "workspaces": ["RAIKU"],
+  "scripts": {
+    "dev": "npm --prefix RAIKU run dev",
+    "build": "npm --prefix RAIKU run build",
+    "start": "npm --prefix RAIKU run preview"
+  }
+}
